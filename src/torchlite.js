@@ -59,15 +59,15 @@ const setCssVars = (theme) => {
 }
 
 async function importXadiaSettings() {
-	const installed = await game.settings.get("cortex-tales-of-xadia-theme", "themeInstalled")
+	const installed = await game.settings.get("cortex-torchlite-theme", "themeInstalled")
 	if (installed) {
-		console.log("Tales of Xadia Theme already installed. Have fun!")
+		console.log("Torchlite Theme already installed. Have fun!")
 		return
 	}
-	console.log("Installing Tales of Xadia settings.")
-	await game.settings.set("cortex-tales-of-xadia-theme", "themeInstalled", true)
+	console.log("Installing Torchlite settings.")
+	await game.settings.set("cortex-torchlite-theme", "themeInstalled", true)
 	
-	const settingsFile = await fetch("modules/cortex-tales-of-xadia-theme/tales-of-xadia-settings.json")
+	const settingsFile = await fetch("modules/cortex-torchlite-theme/torchlite-settings.json")
 	const settings = await settingsFile.json()
 	
 	if (!settings?.cortexPrimeVersion && !settings?.actorTypes) {
@@ -81,24 +81,24 @@ async function importXadiaSettings() {
 		return
 	}
 	
-	await game.settings.set("cortexprime", "importedSettings", { currentSetting: "tales-of-xadia-theme" })
+	await game.settings.set("cortexprime", "importedSettings", { currentSetting: "cortex-torchlite-theme" })
 	await game.settings.set("cortexprime", "actorTypes", settings.actorTypes)
 	
 	const themeSettings = await game.settings.get("cortexprime", "themes")
 	const { current, custom } = settings.theme ?? {}
 	
-	themeSettings.current = "Tales of Xadia Theme"
-	themeSettings.list["Tales of Xadia Theme"] = custom
+	themeSettings.current = "Torchlite Theme"
+	themeSettings.list["Torchlite Theme"] = custom
 	
 	await game.settings.set("cortexprime", "themes", themeSettings)
 	
-	const theme = themeSettings.list["Tales of Xadia Theme"]
+	const theme = themeSettings.list["Torchlite Theme"]
 	setCssVars(theme)
-	console.log("Installed Tales of Xadia Settings!")
+	console.log("Installed Torchlite Settings!")
 }
 
 Hooks.on("init", function() {
-	game.settings.register("cortex-tales-of-xadia-theme", "themeInstalled", {
+	game.settings.register("cortex-torchlite-theme", "themeInstalled", {
 		name: "Theme Installed",
 		hint: "A flag indicating that the module was installed",
 		scope: "world",
