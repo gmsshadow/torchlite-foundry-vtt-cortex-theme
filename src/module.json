@@ -18,9 +18,9 @@
   "styles": [
     "torchlite.css"
   ],
-  "manifest": "https://raw.githubusercontent.com/gmsshadow/torchlite-foundry-vtt-cortex-theme/refs/heads/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/gmsshadow/torchlite-foundry-vtt-cortex-theme/refs/heads/main/src/module.json",
   "download": "https://github.com/gmsshadow/torchlite-foundry-vtt-cortex-theme/releases/latest/download/torchlite-foundry-vtt-cortex-theme.zip",
-  "readme": "https://github.com/Naresea/tales-of-xadia-foundry-vtt-cortex-theme/blob/main/README.md",
+  "readme": "https://github.com/gmsshadow/torchlite-foundry-vtt-cortex-theme/blob/main/readme.md",
   "system": ["cortexprime"],
   "relationships": {
 	  "systems": [{
