@@ -1,0 +1,586 @@
+{
+  "actorTypes": {
+    "0": {
+      "defaultImage": "icons/svg/mystery-man.svg",
+      "hasAssets": false,
+      "hasComplications": false,
+      "hasHidableTraits": false,
+      "hasNotesPage": true,
+      "hasPlotPoints": true,
+      "id": "_1",
+      "name": "Character",
+      "showProfileImage": true,
+      "traitSets": {
+        "0": {
+          "description": "You are the sum of your distinctions. You always include one of your distinctions in your dice pool. Which one you choose may have a part to play in the outcome of your test, contest, or challenge.",
+          "hasDescription": true,
+          "id": "_11",
+          "label": "Distinctions",
+          "shutdown": false,
+          "traits": {
+            "0": {
+              "dice": {
+                "value": {
+                  "0": "8"
+                }
+              },
+              "id": "_111",
+              "label": "",
+              "name": "Kindred",
+              "sfx": {
+                "0": {
+                  "label": "Hinder",
+                  "description": "Gain a PP when you switch out this distinction's d8 for a d4.",
+                  "unlocked": true
+                }
+              },
+              "shutdown": false,
+              "description": "Where are you from? Your kindred distinction reflects where you grew up and what sort of community you belonged to when you were coming of age. Most PCs have either a human kingdom or an elf community as their kindred distinction.\n                                                                                                                                                                                                                                \n                                                                                                                                                                                                                                For humans, this reflects your human kingdom and the part of society you came from.\n                                                                                                                                                                                                                                \n                                                                                                                                                                                                                                For elves, this reflects that you’re an elf and which type of elf your family belongs to."
+            },
+            "1": {
+              "dice": {
+                "value": {
+                  "0": "8"
+                }
+              },
+              "id": "_112",
+              "label": "",
+              "name": "Vocation",
+              "sfx": {
+                "0": {
+                  "label": "Hinder",
+                  "description": "Gain a PP when you switch out this distinction's d8 for a d4.",
+                  "unlocked": true
+                }
+              },
+              "shutdown": false,
+              "description": "How were you trained? Your vocation distinction represents what you chose to do with your life at a young age, making it part of your youth and upbringing. Even if you’re not pursuing this career or role in your current life, the lessons, skills, and knowledge you learned from this make it useful from day to day.\n                                                                                                                                                                                \n                                                                                                                                                                                Your vocation distinction always comes with an adjective. This helps differentiate two characters with the same basic vocation. A Calm Soldier is not the same as a Battle-Worn Soldier!"
+            },
+            "2": {
+              "dice": {
+                "value": {
+                  "0": "8"
+                }
+              },
+              "id": "_113",
+              "label": "",
+              "name": "Quirk",
+              "sfx": {
+                "0": {
+                  "label": "Hinder",
+                  "description": "Gain a PP when you switch out this distinction's d8 for a d4.",
+                  "unlocked": true
+                }
+              },
+              "shutdown": false,
+              "description": "What makes you different? Your quirk distinction, more than any adjective or description, best encapsulates who your PC is in regard to everyone else you’re likely to meet.\n                                                                                                                                \n                                                                                                                                Quirks are often written as sayings or turns of phrase. They can be descriptors or qualities, too. Your quirk sums up the reason your character is unlike somebody else with the same kindred and vocation distinctions."
+            }
+          },
+          "settings": {
+            "hasDescription": true,
+            "hasDescriptors": false,
+            "hasDice": true,
+            "hasLabel": true,
+            "hasSfx": true,
+            "hasSubTraits": false,
+            "subTraitsHaveDice": true,
+            "subTraitsDiceConsumable": false,
+            "diceConsumable": false
+          }
+        },
+        "1": {
+          "id": "_1682610447411",
+          "label": "Attributes",
+          "hasDescription": true,
+          "settings": {
+            "hasDescription": false,
+            "hasLabel": true,
+            "hasDescriptors": false,
+            "hasSfx": false,
+            "hasSubTraits": false,
+            "hasDice": true,
+            "diceConsumable": false
+          },
+          "description": "Every character has a rating in these six traits from a d4 to a d12. You always include one of your attributes in your dice pool when you attempt a test, contest, or challenge. Which attribute you include depends on the circumstances.",
+          "traits": {
+            "0": {
+              "id": "_1682610625536",
+              "name": "Agility",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              }
+            },
+            "1": {
+              "id": "_1682610634533",
+              "name": "Awareness",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              }
+            },
+            "2": {
+              "id": "_1682610643531",
+              "name": "Influence",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              }
+            },
+            "3": {
+              "id": "_1682610650544",
+              "name": "Intellect",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              }
+            },
+            "4": {
+              "id": "_1682610660973",
+              "name": "Spirit",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              }
+            },
+            "5": {
+              "id": "_1682610669686",
+              "name": "Strength",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "id": "_1682610496561",
+          "label": "Values",
+          "hasDescription": true,
+          "settings": {
+            "hasDescription": true,
+            "hasLabel": false,
+            "hasDescriptors": false,
+            "hasSfx": false,
+            "hasSubTraits": false,
+            "hasDice": true,
+            "subTraitsHaveDice": false,
+            "subTraitsDiceConsumable": false,
+            "diceConsumable": false
+          },
+          "description": "Every character’s investment in these six traits runs from a barely interested d4 to a supremely committed d12. The bigger the die rating, the more that value helps you on your journey. You always include one of your values in your dice pool when you’re attempting a test, contest, or challenge; which one depends on what your character is most motivated by.",
+          "traits": {
+            "0": {
+              "id": "_1682620365337",
+              "name": "Devotion",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              },
+              "description": ""
+            },
+            "1": {
+              "id": "_1682620385488",
+              "name": "Liberty",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              },
+              "description": ""
+            },
+            "2": {
+              "id": "_1682620396324",
+              "name": "Glory",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              },
+              "description": ""
+            },
+            "3": {
+              "id": "_1682620406940",
+              "name": "Mastery",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              },
+              "description": ""
+            },
+            "4": {
+              "id": "_1682620419815",
+              "name": "Justice",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              },
+              "description": ""
+            },
+            "5": {
+              "id": "_1682620430103",
+              "name": "Truth",
+              "dice": {
+                "value": {
+                  "0": "4"
+                }
+              },
+              "description": ""
+            }
+          }
+        },
+        "3": {
+          "label": "Specialities",
+          "hasDescription": true,
+          "description": "A specialty is rated from d6 to d12 and covers a narrow field of expertise or ability. You can include these dice in your dice pool when you roll so long as what you’re doing is relevant to the specialty’s area.",
+          "settings": {
+            "hasDescription": true,
+            "hasLabel": false,
+            "hasDescriptors": false,
+            "hasSfx": false,
+            "hasSubTraits": false,
+            "hasDice": true,
+            "diceConsumable": false
+          }
+        },
+        "4": {
+          "id": "_1682694801420",
+          "label": "Assets",
+          "hasDescription": true,
+          "settings": {
+            "hasDescription": true,
+            "hasLabel": true,
+            "hasDescriptors": false,
+            "hasSfx": false,
+            "hasSubTraits": false,
+            "hasDice": true,
+            "diceConsumable": false
+          },
+          "description": "An asset is rated from d6 to d12 and is something or someone who can assist you that isn’t inherent or part of you."
+        },
+        "5": {
+          "id": "_1682694916003",
+          "label": "Stress and Trauma",
+          "hasDescription": true,
+          "settings": {
+            "hasDescription": true,
+            "hasLabel": false,
+            "hasDescriptors": false,
+            "hasSfx": false,
+            "hasSubTraits": false,
+            "hasDice": true,
+            "diceConsumable": false
+          },
+          "description": "Characters in Tales of Xadia must often endure great hardships or suffer through perilous situations in order to triumph. We represent these personal obstacles with stress dice, which are rated from d6 to d12. Your PC acquires stress dice through play; track your stress dice here.",
+          "traits": {
+            "0": {
+              "id": "_1682694938407",
+              "name": "Afraid",
+              "dice": {
+                "value": {}
+              },
+              "description": "This is the stress of fear and panic. Once this exceeds d12, you are gripped in the clutches of terror."
+            },
+            "1": {
+              "id": "_1682694956674",
+              "name": "Corrupted",
+              "dice": {
+                "value": {}
+              },
+              "description": "This is the stress of dark magic. Once this exceeds d12, you are consumed with darkness."
+            },
+            "2": {
+              "id": "_1682694971396",
+              "name": "Insecure",
+              "dice": {
+                "value": {}
+              },
+              "description": "This is the stress of apprehension and worry. Once this exceeds d12, you succumb to insecurity."
+            },
+            "3": {
+              "id": "_1682694983758",
+              "name": "Angry",
+              "dice": {
+                "value": {}
+              },
+              "description": "This is the stress of rage and frustration. Once this exceeds d12, you are lost to your wrath."
+            },
+            "4": {
+              "id": "_1682695000520",
+              "name": "Exhausted",
+              "dice": {
+                "value": {}
+              },
+              "description": "This is the stress of fatigue and weariness. Once this exceeds d12, you can no longer remain awake."
+            },
+            "5": {
+              "id": "_1682695010836",
+              "name": "Injured",
+              "dice": {
+                "value": {}
+              },
+              "description": "This is the stress of pain and wounding. Once this exceeds d12, you collapse unconscious and may die."
+            }
+          }
+        },
+        "6": {
+          "id": "_1682695112223",
+          "label": "Goals",
+          "hasDescription": true,
+          "settings": {
+            "hasDescription": true,
+            "hasLabel": true,
+            "hasDescriptors": false,
+            "hasSfx": false,
+            "hasSubTraits": false,
+            "hasDice": true,
+            "diceConsumable": false
+          },
+          "description": "Goal-setting is a fun way to plan ahead for what you think your character might want to do in the game, session by session. The Narrator can work with you to set up your goals, which also allows them to take note of those goals when preparing the next session. You can have up to three goals at any one time. Goals are important not just for helping you guide the story as a player, but because achieving a goal contributes to your growth pool."
+        }
+      },
+      "simpleTraits": {
+        "0": {
+          "dice": {
+            "value": {}
+          },
+          "id": "_1682695157130",
+          "label": "Growth Pool",
+          "settings": {
+            "editable": true,
+            "valueType": "dice",
+            "consumableDice": false
+          },
+          "hasDescription": true,
+          "text": {
+            "value": ""
+          },
+          "description": "As you play, your PC takes and recovers stress, questions their values, and achieves goals. All of these things fill your growth pool with dice that you can later use to make changes to your character journal. Spend dice from your growth pool at the end of a session to create relationship assets or roll the growth pool at the end of the tale to improve a trait or unlock more SFX."
+        }
+      }
+    },
+    "1": {
+      "defaultImage": "icons/svg/house.svg",
+      "hasAssets": true,
+      "hasComplications": true,
+      "hasHidableTraits": true,
+      "hasNotesPage": true,
+      "hasPlotPoints": true,
+      "id": "_2",
+      "name": "Scene",
+      "showProfileImage": false,
+      "simpleTraits": {
+        "0": {
+          "dice": {
+            "id": "_21",
+            "value": {
+              "0": "6",
+              "1": "6"
+            }
+          },
+          "hasDescription": false,
+          "label": "Doom Pool",
+          "settings": {
+            "diceConsumable": false,
+            "editable": true,
+            "valueType": "dice",
+            "consumableDice": false
+          }
+        }
+      },
+      "traitSets": {
+        "0": {
+          "description": null,
+          "hasDescription": false,
+          "id": "_21",
+          "label": "Extras",
+          "shutdown": false,
+          "traits": {},
+          "settings": {
+            "hasDescription": false,
+            "hasDescriptors": false,
+            "hasDice": true,
+            "hasLabel": false,
+            "hasSfx": false,
+            "hasSubTraits": false,
+            "subTraitsHaveDice": true,
+            "subTraitsDiceConsumable": false,
+            "diceConsumable": false
+          }
+        },
+        "1": {
+          "description": null,
+          "hasDescription": false,
+          "id": "_22",
+          "label": "Minor GMCs",
+          "shutdown": false,
+          "traits": {},
+          "settings": {
+            "hasDescription": true,
+            "hasDescriptors": false,
+            "hasDice": false,
+            "hasLabel": false,
+            "hasSfx": false,
+            "hasSubTraits": true,
+            "subTraitsHaveDice": true,
+            "subTraitsDiceConsumable": false
+          }
+        },
+        "2": {
+          "description": null,
+          "hasDescription": false,
+          "id": "_23",
+          "label": "Mobs",
+          "shutdown": false,
+          "traits": {},
+          "settings": {
+            "hasDescription": true,
+            "hasDescriptors": false,
+            "hasDice": true,
+            "hasLabel": true,
+            "hasSfx": false,
+            "hasSubTraits": true,
+            "subTraitsHaveDice": true,
+            "subTraitsDiceConsumable": false,
+            "diceConsumable": false
+          }
+        },
+        "3": {
+          "description": null,
+          "hasDescription": false,
+          "id": "_24",
+          "label": "Bosses/Factions/Orgs",
+          "shutdown": false,
+          "traits": {},
+          "settings": {
+            "hasDescription": true,
+            "hasDescriptors": false,
+            "hasDice": true,
+            "hasLabel": true,
+            "hasSfx": true,
+            "hasSubTraits": true,
+            "subTraitsHaveDice": true,
+            "subTraitsDiceConsumable": false,
+            "diceConsumable": false
+          }
+        }
+      }
+    }
+  },
+  "cortexPrimeVersion": "0.2.7",
+  "theme": {
+    "current": "custom",
+    "custom": {
+      "bodyFontColor": "#FFF8EF",
+      "bodyFontSize": 14,
+      "bodyFontWeight": "400",
+      "buttonPrimaryColor": "#201B15",
+      "buttonPrimaryFontColor": "#48C0E9",
+      "buttonSecondaryColor": "#201B15",
+      "buttonSecondaryFontColor": "#48C0E9",
+      "buttonStyle": "rounded",
+      "chosenFill": "#005590",
+      "chosenStroke": "#B0E4F5",
+      "chosenNumber": "#FFF8EF",
+      "descriptorLabelFontColor": "#FFF8EF",
+      "descriptorLabelFontSize": 14,
+      "descriptorLabelFontStyle": "italic",
+      "descriptorLabelFontWeight": "700",
+      "descriptorLabelTextTransform": "none",
+      "dieRatingFill": "#005590",
+      "dieRatingStroke": "#005590",
+      "dieRatingNumber": "#ffffff",
+      "effectFill": "#3B873E",
+      "effectStroke": "#B0ECAF",
+      "effectNumber": "#FFFFFF",
+      "hitchFill": "#000000",
+      "hitchStroke": "#48C0E9",
+      "hitchNumber": "#FFF8EF",
+      "inputBackgroundColor": "#201B15",
+      "inputBorderColor": "#413B35",
+      "inputBorderPosition": "a",
+      "inputBorderStyle": "solid",
+      "inputBorderWidth": "2",
+      "inputCheckboxColor": "#2d5931",
+      "inputFocusColor": "#48C0E9",
+      "inputColor": "#FFF8EF",
+      "inputLabelColor": "#FFF8EF",
+      "inputLabelFontSize": 14,
+      "inputLabelFontStyle": "normal",
+      "inputLabelFontWeight": "700",
+      "inputLabelTextTransform": "capitalize",
+      "plotPointFill": "#D2942A",
+      "plotPointStroke": "#D2942A",
+      "plotPointText": "#FFF8EF",
+      "sectionAlternateBackgroundColor": "#201B15",
+      "sectionBackgroundColor": "#201B15",
+      "sectionBackgroundColorOpacity": 0,
+      "sectionBackgroundImage": null,
+      "sectionBackgroundImageOpacity": 0.9,
+      "sectionBackgroundPosition": "center",
+      "sectionBackgroundRepeat": "no-repeat",
+      "sectionBackgroundSize": "cover",
+      "sectionBorderColor": "#ffffff",
+      "sectionBorderPosition": "a",
+      "sectionBorderStyle": "none",
+      "sectionBorderWidth": "2",
+      "sectionPrimaryTitleFontColor": "#FFF8EF",
+      "sectionPrimaryTitleFontSize": 19,
+      "sectionPrimaryTitleFontStyle": "normal",
+      "sectionPrimaryTitleFontWeight": "700",
+      "sectionPrimaryTitleTextTransform": "uppercase",
+      "sectionSecondaryTitleFontColor": "#FFF8EF",
+      "sectionSecondaryTitleFontSize": 17,
+      "sectionSecondaryTitleFontStyle": "normal",
+      "sectionSecondaryTitleFontWeight": "700",
+      "sectionSecondaryTitleTextTransform": "uppercase",
+      "selectedFill": "#005590",
+      "selectedStroke": "#D2942A",
+      "selectedNumber": "#FFF8EF",
+      "separatorColor": "#D2942A",
+      "separatorStyle": "solid",
+      "separatorWeight": "2",
+      "sfxBulletColor": "#D2942A",
+      "sfxLabelFontColor": "#FFF8EF",
+      "sfxLabelFontSize": 15,
+      "sfxLabelFontStyle": "italic",
+      "sfxLabelFontWeight": "700",
+      "sfxLabelTextTransform": "capitalize",
+      "sheetBackgroundColor": "#201B15",
+      "sheetBackgroundImage": "modules/cortex-tales-of-xadia-theme/images/sheet_background.webp",
+      "sheetBackgroundImageOpacity": 0.5,
+      "sheetBackgroundPosition": "center",
+      "sheetBackgroundRepeat": "no-repeat",
+      "sheetBackgroundSize": "cover",
+      "subTraitLabelFontColor": "#FFF8EF",
+      "subTraitLabelFontSize": 14,
+      "subTraitLabelFontStyle": "normal",
+      "subTraitLabelFontWeight": "700",
+      "subTraitLabelTextTransform": "uppercase",
+      "tabBorderColor": "#b30000",
+      "tabStyle": "rounded",
+      "traitSubTitleFontColor": "#FFF8EF",
+      "traitSubTitleFontSize": 15,
+      "traitSubTitleFontStyle": "italic",
+      "traitSubTitleFontWeight": "700",
+      "traitSubTitleTextTransform": "none",
+      "traitTitleFontColor": "#FFF8EF",
+      "traitTitleFontSize": 16,
+      "traitTitleFontStyle": "normal",
+      "traitTitleFontWeight": "700",
+      "traitTitleTextTransform": "uppercase",
+      "unchosenFill": "#FFF8EF",
+      "unchosenStroke": "#000000",
+      "unchosenNumber": "#000000"
+    }
+  }
+}

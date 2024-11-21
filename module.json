@@ -1,0 +1,43 @@
+{
+  "id": "cortex-torchlite-theme",
+  "title": "Cortex Prime - Torchlite Theme",
+  "description": "A module with pre-configured settings and custom CSS rules to make Cortex Prime look and feel like the Torchlite.",
+  "authors": [
+		{
+		"name": "GMsShadow"
+		}
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "scripts": [
+    "torchlite.js"
+  ],
+  "styles": [
+    "torchlite.css"
+  ],
+  "manifest": "https://raw.githubusercontent.com/Naresea/tales-of-xadia-foundry-vtt-cortex-theme/main/releases/module.json",
+  "download": "https://raw.githubusercontent.com/Naresea/tales-of-xadia-foundry-vtt-cortex-theme/main/releases/module.zip",
+  "readme": "https://github.com/Naresea/tales-of-xadia-foundry-vtt-cortex-theme/blob/main/README.md",
+  "system": ["cortexprime"],
+  "relationships": {
+	  "systems": [{
+		"id": "cortexprime",
+		"type": "system",
+		"manifest": "https://raw.githubusercontent.com/Secular12/cortexprime/v0.2.7/system.json",
+		"compatibility": {
+		  "verified": "0.2.7"
+		}
+	  }],
+	  "requires": [{
+		"id": "chat-portrait",
+		"type": "module",
+		"manifest": "https://github.com/p4535992/foundryvtt-chat-portrait/releases/download/v0.8.44/module.json",
+		"compatibility": {
+			"verified": "0.8.44"
+		}
+	  }]
+  }
+}
