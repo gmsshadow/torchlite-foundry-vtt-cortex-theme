@@ -280,7 +280,7 @@
             "hasDice": true,
             "diceConsumable": false
           },
-          "description": "Characters in Tales of Xadia must often endure great hardships or suffer through perilous situations in order to triumph. We represent these personal obstacles with stress dice, which are rated from d6 to d12. Your PC acquires stress dice through play; track your stress dice here.",
+          "description": "Characters in Torchlite must often endure great hardships or suffer through perilous situations in order to triumph. We represent these personal obstacles with stress dice, which are rated from d6 to d12. Your PC acquires stress dice through play; track your stress dice here.",
           "traits": {
             "0": {
               "id": "_1682694938407",
@@ -556,7 +556,7 @@
       "sfxLabelFontWeight": "700",
       "sfxLabelTextTransform": "capitalize",
       "sheetBackgroundColor": "#201B15",
-      "sheetBackgroundImage": "modules/cortex-tales-of-xadia-theme/images/sheet_background.webp",
+      "sheetBackgroundImage": "modules/cortex-torchlite-theme/images/sheet_background.webp",
       "sheetBackgroundImageOpacity": 0.5,
       "sheetBackgroundPosition": "center",
       "sheetBackgroundRepeat": "no-repeat",
