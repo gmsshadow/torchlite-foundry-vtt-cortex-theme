@@ -19,7 +19,7 @@
     "torchlite.css"
   ],
   "manifest": "https://raw.githubusercontent.com/gmsshadow/torchlite-foundry-vtt-cortex-theme/refs/heads/main/src/module.json",
-  "download": "https://github.com/gmsshadow/torchlite-foundry-vtt-cortex-theme/releases/latest/download/torchlite-foundry-vtt-cortex-theme.zip",
+  "download": "https://github.com/gmsshadow/torchlite-foundry-vtt-cortex-theme/raw/refs/heads/main/releases/torchlite_v1.0.0.zip",
   "readme": "https://github.com/gmsshadow/torchlite-foundry-vtt-cortex-theme/blob/main/readme.md",
   "system": ["cortexprime"],
   "relationships": {
